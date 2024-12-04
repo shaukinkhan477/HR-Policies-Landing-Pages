@@ -1,16 +1,18 @@
-import React from 'react';
+import React from "react";
 import {
   PresentationChartBarIcon,
   CalendarDaysIcon,
   HandRaisedIcon,
-} from '@heroicons/react/24/outline';
+} from "@heroicons/react/24/outline";
+import MeetingPreparationImage from "../../assets/communicationStandardsImg/meeting_preparation.jpg";
+import MeetingConductImage from "../../assets/communicationStandardsImg/meeting_conduct.jpg";
 
-import MeetingPreparationImage from '../assets/meeting_preparation.jpg';
-import MeetingConductImage from '../assets/meeting_conduct.jpg';
+// import MeetingPreparationImage from "../assets/meeting_preparation.jpg";
+// import MeetingConductImage from "../assets/meeting_conduct.jpg";
 
 const MeetingsAndPresentations = () => {
   return (
-    <div className="mb-12">
+    <div id="section25" className="mb-12">
       <h2 className="text-2xl font-semibold text-gray-800 mb-8 flex items-center">
         <PresentationChartBarIcon className="h-8 w-8 text-green-600 mr-2" />
         Meetings and Presentations
@@ -29,7 +31,10 @@ const MeetingsAndPresentations = () => {
             className="w-full h-44 object-cover mb-4"
           />
           <p className="text-gray-600">
-            Effective meetings start with thorough preparation. Set clear objectives, create an agenda, and distribute it in advance. Ensure all necessary materials are ready and participants are informed about their roles.
+            Effective meetings start with thorough preparation. Set clear
+            objectives, create an agenda, and distribute it in advance. Ensure
+            all necessary materials are ready and participants are informed
+            about their roles.
           </p>
         </div>
 
@@ -45,7 +50,9 @@ const MeetingsAndPresentations = () => {
             className="w-full h-44 object-cover mb-4"
           />
           <p className="text-gray-600">
-            During meetings, engage respectfully and stay focused on the agenda. Encourage open dialogue, listen actively, and avoid interruptions. Summarize key points and define action items before concluding.
+            During meetings, engage respectfully and stay focused on the agenda.
+            Encourage open dialogue, listen actively, and avoid interruptions.
+            Summarize key points and define action items before concluding.
           </p>
         </div>
       </div>

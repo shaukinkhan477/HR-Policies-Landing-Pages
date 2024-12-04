@@ -1,9 +1,8 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
-import { useAnimation } from 'framer-motion';
-import { useEffect } from 'react';
-
+import React from "react";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useAnimation } from "framer-motion";
+import { useEffect } from "react";
 
 const ResourcesAndSupport = () => {
   const controls = useAnimation();
@@ -14,12 +13,12 @@ const ResourcesAndSupport = () => {
 
   useEffect(() => {
     if (inView) {
-      controls.start('visible');
+      controls.start("visible");
     }
   }, [controls, inView]);
 
   return (
-    <section ref={ref} className="my-16">
+    <section id="section29" ref={ref} className="my-16">
       <motion.h2
         className="text-2xl font-semibold text-gray-800 mb-6"
         initial="hidden"
@@ -42,26 +41,17 @@ const ResourcesAndSupport = () => {
         transition={{ delay: 0.2 }}
       >
         <div>
-          <a
-            href="#"
-            className="text-green-600 hover:underline"
-          >
+          <a href="#" className="text-green-600 hover:underline">
             Download Communication Guidelines PDF
           </a>
         </div>
         <div>
-          <a
-            href="#"
-            className="text-green-600 hover:underline"
-          >
+          <a href="#" className="text-green-600 hover:underline">
             Access Online Training Modules
           </a>
         </div>
         <div>
-          <a
-            href="#"
-            className="text-green-600 hover:underline"
-          >
+          <a href="#" className="text-green-600 hover:underline">
             Frequently Asked Questions
           </a>
         </div>

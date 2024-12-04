@@ -1,14 +1,15 @@
-import './App.css'
-import CommunicationStandards from './pages/CommunicationStandards';
-
+import { Outlet } from "react-router-dom";
+import "./App.css";
+import Header from "./components/confidentiality/Header";
 
 function App() {
-
   return (
     <>
-      <CommunicationStandards/>
+      {/* <CommunicationStandards/> */}
+      <Header />
+      <Outlet />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

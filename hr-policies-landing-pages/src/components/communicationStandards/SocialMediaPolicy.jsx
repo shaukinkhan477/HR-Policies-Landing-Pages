@@ -1,12 +1,9 @@
-import React, { useEffect } from 'react';
-import { motion, useAnimation } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
-import {
-  UserCircleIcon,
-  GlobeAltIcon,
-} from '@heroicons/react/24/outline';
-import PersonalAccountsImage from '../assets/personal_accounts.jpg';
-import CompanyRepresentationImage from '../assets/company_representation.jpg';
+import React, { useEffect } from "react";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { UserCircleIcon, GlobeAltIcon } from "@heroicons/react/24/outline";
+import PersonalAccountsImage from "../../assets/communicationStandardsImg/personal_accounts.jpg";
+import CompanyRepresentationImage from "../../assets/communicationStandardsImg/company_representation.jpg";
 
 const SocialMediaPolicy = () => {
   const controls = useAnimation();
@@ -17,12 +14,12 @@ const SocialMediaPolicy = () => {
 
   useEffect(() => {
     if (inView) {
-      controls.start('visible');
+      controls.start("visible");
     }
   }, [controls, inView]);
 
   return (
-    <div ref={ref} className="mb-12">
+    <div id="section27" ref={ref} className="mb-12">
       <motion.h2
         className="text-2xl font-semibold text-gray-800 mb-8 flex items-center"
         initial="hidden"
@@ -50,7 +47,9 @@ const SocialMediaPolicy = () => {
         >
           <div className="flex items-center mb-4">
             {/* <UserCircleIcon className="h-10 w-10 text-indigo-600 mr-2" /> */}
-            <h3 className="text-xl font-bold text-indigo-600">Personal Accounts</h3>
+            <h3 className="text-xl font-bold text-indigo-600">
+              Personal Accounts
+            </h3>
           </div>
           <img
             src={PersonalAccountsImage}
@@ -58,7 +57,10 @@ const SocialMediaPolicy = () => {
             className="w-full h-50 object-cover mb-4"
           />
           <p className="text-gray-600">
-            Employees should represent themselves responsibly online. While sharing personal views, avoid disclosing confidential information or making statements that could harm the company's reputation. Use privacy settings to control who can view your content.
+            Employees should represent themselves responsibly online. While
+            sharing personal views, avoid disclosing confidential information or
+            making statements that could harm the company's reputation. Use
+            privacy settings to control who can view your content.
           </p>
         </motion.div>
 
@@ -75,7 +77,9 @@ const SocialMediaPolicy = () => {
         >
           <div className="flex items-center mb-4">
             {/* <OfficeBuildingIcon className="h-10 w-10 text-indigo-600 mr-2" /> */}
-            <h3 className="text-xl font-bold text-indigo-600">Company Representation</h3>
+            <h3 className="text-xl font-bold text-indigo-600">
+              Company Representation
+            </h3>
           </div>
           <img
             src={CompanyRepresentationImage}
@@ -83,7 +87,10 @@ const SocialMediaPolicy = () => {
             className="w-full h-50 object-cover mb-4"
           />
           <p className="text-gray-600">
-            Only authorized personnel may post on behalf of the company. Ensure all content is accurate, professional, and aligns with our brand values. Obtain necessary approvals before sharing official statements or sensitive information.
+            Only authorized personnel may post on behalf of the company. Ensure
+            all content is accurate, professional, and aligns with our brand
+            values. Obtain necessary approvals before sharing official
+            statements or sensitive information.
           </p>
         </motion.div>
       </div>

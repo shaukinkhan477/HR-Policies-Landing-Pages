@@ -1,14 +1,14 @@
-import React from 'react';
+import React from "react";
 import {
   EnvelopeIcon,
   ChatBubbleLeftEllipsisIcon,
   PhoneIcon,
-} from '@heroicons/react/24/outline';
-import { motion } from 'framer-motion';
+} from "@heroicons/react/24/outline";
+import { motion } from "framer-motion";
 
 const CommunicationChannels = () => {
   return (
-    <div className="mb-12">
+    <div id="section22" className="mb-12">
       <motion.h2
         className="text-2xl font-semibold text-gray-800 mb-4"
         initial={{ opacity: 0 }}
@@ -22,7 +22,8 @@ const CommunicationChannels = () => {
           <EnvelopeIcon className="h-10 w-10 text-green-600 mb-4" />
           <h3 className="text-xl font-bold mb-2">Email</h3>
           <p className="text-gray-600">
-            Use for formal communications and when detailed information is required.
+            Use for formal communications and when detailed information is
+            required.
           </p>
         </div>
         {/* Intranet */}

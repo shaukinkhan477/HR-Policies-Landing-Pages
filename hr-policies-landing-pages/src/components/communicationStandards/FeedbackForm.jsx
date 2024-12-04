@@ -1,17 +1,16 @@
 import React from "react";
 
 const FeedbackForm = () => {
-
   return (
-
-    <div className="bg-white shadow mt-16 rounded-lg">
+    <div id="section292" className="bg-white shadow mt-16 rounded-lg">
       <div className="max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-8 mb-18">
-        <h2 className="text-2xl font-semibold text-gray-800 mb-6">
-          Feedback
-        </h2>
+        <h2 className="text-2xl font-semibold text-gray-800 mb-6">Feedback</h2>
         <form className="space-y-6">
           <div>
-            <label htmlFor="name" className="block text-sm font-medium text-gray-700">
+            <label
+              htmlFor="name"
+              className="block text-sm font-medium text-gray-700"
+            >
               Name
             </label>
             <input
@@ -23,7 +22,10 @@ const FeedbackForm = () => {
             />
           </div>
           <div>
-            <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+            <label
+              htmlFor="email"
+              className="block text-sm font-medium text-gray-700"
+            >
               Email
             </label>
             <input
@@ -35,7 +37,10 @@ const FeedbackForm = () => {
             />
           </div>
           <div>
-            <label htmlFor="message" className="block text-sm font-medium text-gray-700">
+            <label
+              htmlFor="message"
+              className="block text-sm font-medium text-gray-700"
+            >
               Message
             </label>
             <textarea
@@ -58,6 +63,6 @@ const FeedbackForm = () => {
       </div>
     </div>
   );
-}
-        
+};
+
 export default FeedbackForm;
