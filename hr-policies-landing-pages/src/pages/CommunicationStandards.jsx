@@ -4,17 +4,17 @@ import { motion } from 'framer-motion';
 import ProcedureImage from '../assets/Reecocefe-Logo.webp';
 
 
-import Header from '../components/HRPolicyHeader';
-import AccordionItem from '../components/AccordionItem';
-import SocialMediaPolicy from '../components/SocialMediaPolicy';
-import DigitalCommunication from '../components/DigitalCommunication';
-import ConflictResolution from '../components/ConflictResolution';
-import CommunicationEtiquette from '../components/CommunicationEtiquette';
-import MeetingsAndPresentations from '../components/MeetingsAndPresentations';
-import CommunicationChannels from '../components/CommunicationChannels';
-import ResourcesAndSupport from '../components/ResourcesAndSupport';
-import ContactInformation from '../components/ContactInformation';
-import FeedbackForm from '../components/FeedbackForm';
+import Header from '../communicationStandards/HRPolicyHeader';
+import AccordionItem from '../communicationStandards/AccordionItem';
+import SocialMediaPolicy from '../communicationStandards/SocialMediaPolicy';
+import DigitalCommunication from '../communicationStandards/DigitalCommunication';
+import ConflictResolution from '../communicationStandards/ConflictResolution';
+import CommunicationEtiquette from '../communicationStandards/CommunicationEtiquette';
+import MeetingsAndPresentations from '../communicationStandards/MeetingsAndPresentations';
+import CommunicationChannels from '../communicationStandards/CommunicationChannels';
+import ResourcesAndSupport from '../communicationStandards/ResourcesAndSupport';
+import ContactInformation from '../communicationStandards/ContactInformation';
+import FeedbackForm from '../communicationStandards/FeedbackForm';
 
 
 function CommunicationStandards() {
