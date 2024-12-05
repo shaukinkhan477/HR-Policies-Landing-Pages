@@ -55,10 +55,10 @@
 // export default HeroSection;
 
 import React from "react";
-import bricks from "../../assets/heroSectionImg/bricks.svg";
-import towerCrane from "../../assets/heroSectionImg/towerCrane.svg";
-import people from "../../assets/heroSectionImg/people.svg";
-import trafficConeAndRoadBarrier from "../../assets/heroSectionImg/trafficConeAndRoadBarrier.svg";
+import bricks from "../../assets/heroSection/bricks.svg";
+import towerCrane from "../../assets/heroSection/towerCrane.svg";
+import people from "../../assets/heroSection/people.svg";
+import trafficConeAndRoadBarrier from "../../assets/heroSection/trafficConeAndRoadBarrier.svg";
 
 const HeroSection = () => {
   return (

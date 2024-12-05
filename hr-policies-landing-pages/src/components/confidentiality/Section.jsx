@@ -4,7 +4,7 @@ const Section = ({ id, title, children, subTitle, subTitle1, data, data3 }) => {
   return (
     <section id={id} className=" space-y-1">
       {title && (
-        <h2 className="text-lg font-semibold  font-sans text-lg">{title}</h2>
+        <h2 className="text-lg font-semibold  font-sans">{title}</h2>
       )}
       {/* <TableContent subTitle={subTitle} /> */}
       <p className="text-gray-900 font-sans text-base ">{children}</p>
