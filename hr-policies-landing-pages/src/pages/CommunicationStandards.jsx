@@ -1,9 +1,6 @@
 import { React } from "react";
 import { motion } from "framer-motion";
 
-import ProcedureImage from "../assets/communicationStandardsImg/Reecocefe-Logo.webp";
-
-import Header from "../components/communicationStandards/HRPolicyHeader";
 import AccordionItem from "../components/communicationStandards/AccordionItem";
 import SocialMediaPolicy from "../components/communicationStandards/SocialMediaPolicy";
 import DigitalCommunication from "../components/communicationStandards/DigitalCommunication";
@@ -16,6 +13,8 @@ import ContactInformation from "../components/communicationStandards/ContactInfo
 import FeedbackForm from "../components/communicationStandards/FeedbackForm";
 import HeroSection from "../components/confidentiality/HeroSection";
 import HRPolicy from "../components/confidentiality/HRPolicy";
+
+
 
 function CommunicationStandards() {
   // Define the accordion data for Communication standards in bussiness operations
@@ -93,19 +92,6 @@ function CommunicationStandards() {
 
   return (
     <div className="bg-gray-200 min-h-screen">
-      {/* Website Header */}
-      {/* <header className="bg-white shadow">
-        <div>
-          <img
-            src={ProcedureImage}
-            alt="Logo"
-            className="w-50 h-16 ml-8"
-          />
-        </div>
-      </header> */}
-
-      {/* Header Section */}
-      {/* <Header /> */}
       <div className="mt-24">
         <HeroSection />
       </div>
