@@ -50,9 +50,7 @@ const policies = [
       { id: "section26", label: "Digital Communication" },
       { id: "section27", label: "Social Media Policy" },
       { id: "section28", label: "Conflict Resolution" },
-      { id: "section29", label: "Resources and Support" },
-      { id: "section291", label: "Contact Information" },
-      { id: "section292", label: "Feedback" },
+      { id: "section29", label: "Frequentily Asked Question" },
     ],
   },
   {

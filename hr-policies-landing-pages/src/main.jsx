@@ -5,6 +5,7 @@ import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import CommunicationStandards from "./pages/CommunicationStandards.jsx";
 import ConfidentialityPage from "./pages/ConfidentialityPage.jsx";
+import CommunicationPolicy from "./pages/CommunicationPolicy.jsx";
 
 const appRouter = createBrowserRouter([
   {
@@ -17,7 +18,7 @@ const appRouter = createBrowserRouter([
       },
       {
         path: "/communication",
-        element: <CommunicationStandards />,
+        element: <CommunicationPolicy />,
       },
     ],
   },
