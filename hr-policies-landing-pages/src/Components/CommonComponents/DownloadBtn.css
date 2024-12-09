@@ -1,0 +1,28 @@
+/* Button.css */
+.button-container {
+    z-index: 1000; /* Ensure it's on top of other elements */
+  }
+  
+  .button123 {
+    background-color: #007bff  ; /* Initial blue background */
+    padding: 12px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .button123:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    background-color: #28a745; 
+  }
+/*    */
+  
+  /* Optional: Change color when button is clicked */
+  .button123:active {
+    background-color: red; /* Change background when clicked (green color) */
+  }
+  

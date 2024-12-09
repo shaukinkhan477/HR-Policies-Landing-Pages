@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header nav {
+    display: flex;
+    gap: 20px;
+}
+
+.header nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.header .contact-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.banner {
+    background-color: #e0f7da;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    height: 200px;
+}
+
+.banner img {
+    height: 100%;
+    width: 100%;
+}
+
+.banner .text {
+    font-size: 36px;
+    color: #4CAF50;
+}
+
+
+
+
+
+
+
+/* CSS for the .banner container */
+.banner {
+    position: relative;
+    width: 104%;
+  
+    height: 100%; /* Adjust the height of the banner */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container without distorting */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner-text {
+    /* position: relative;
+    left: -576px; */
+    position: absolute;
+    text-align: center;
+    color:#4CAF50;; /* Or any color that contrasts with the image */
+    z-index: 10; /* Ensure the text appears above the image */
+}
+
+.banner-text h2 {
+    font-size: 3rem; /* Adjust the size of the text */
+    margin: 0;
+}

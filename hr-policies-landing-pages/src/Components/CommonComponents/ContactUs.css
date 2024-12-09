@@ -1,0 +1,121 @@
+/* Main container for the entire section */
+.resource-support-container {
+    display: flex;
+    justify-content: space-between;
+   
+    margin: 78px;
+    position: relative;
+    top: 900px;
+  }
+  
+  /* Left panel containing the heading and the link */
+  .left-panel {
+    width: 30%;
+    padding: 20px;
+    background-color: black;
+    border-radius: 11px;
+    border-width: 63px;
+}
+  
+  
+  .left-panel h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .doc-link {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #4CAF50; /* Green color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .doc-link.clicked {
+    color: #2196F3; /* Blue color when clicked */
+  }
+  
+  /* Right panel for the form */
+  .right-panel {
+    position: relative;
+    top: -434px;
+    background-image: url('https://c1.wallpaperflare.com/preview/634/496/50/refugees-economic-migrants-financial-equalization-help.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    width:100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 3px solid green;
+  }
+  
+  .form-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .support-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-input,
+  .form-textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-textarea {
+    resize: vertical;
+    height: 120px;
+  }
+  
+  .submit-btn {
+    padding: 12px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Animation for form fields */
+  @keyframes inputAnimation {
+    0% {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .form-input, .form-textarea {
+    animation: inputAnimation 1s ease-out;
+  }
+  
+  @media (max-width: 768px) {
+    .resource-support-container {
+      flex-direction: column;
+      align-items: center;
+      margin: 78px;
+    }
+  
+    .left-panel, .right-panel {
+      width: 90%;
+    }
+  }
+  

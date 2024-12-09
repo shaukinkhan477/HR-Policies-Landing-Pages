@@ -2,3 +2,110 @@
   margin-left: 940px;
   margin-top: 50px;
 }
+/* Main Header Container */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: #d4f7a8; /* Lime Green Background */
+  position: relative;
+  z-index: 1;
+}
+
+/* Left Section - Crane Icon */
+.left-section {
+  margin-left: 64px; /* Adjust the space as needed */
+}
+
+.icon {
+  width: 44px;
+  height: 44px;
+}
+
+.crane-icon {
+  width: 44px;
+  height: 44px;
+}
+
+/* Center Section - HR Policy Text */
+.center-section {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.hr-policy-text {
+  font-size: 3rem;
+  color: #2d9c2a; /* Green color for the text */
+  font-weight: bold;
+}
+
+/* Right Section - Icons */
+.right-section {
+  display: flex;
+  gap: 16px;
+  margin-right: 64px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.right-icons .icon {
+  width: 28px;
+  height: 28px;
+}
+
+.bricks-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.barrier-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.workers-icon {
+  width: 44px;
+  height: 44px;
+}
+
+/* Navigation Bar */
+.nav-links {
+  position: absolute;
+  top: 16px;
+ 
+  display: flex;
+  right: 208px;
+  gap: 24px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.nav-links a:hover {
+  color: #2d9c2a; /* Hover color (same as HR Policy text color) */
+}
+
+/* Contact Button */
+.contact-btn {
+  position: absolute;
+  top: 8%;
+  right: 20px;
+  transform: translateY(-50%);
+  padding: 8px 16px;
+  background-color: #2d9c2a;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-btn:hover {
+  background-color: #1b6c1b; /* Darker green on hover */
+}
